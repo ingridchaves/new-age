@@ -16,7 +16,7 @@
 
 		body {
 			margin: 0;
-			flex-direction: column;
+			flex-direction:column;
 			display: flex;
 
 		}
@@ -47,22 +47,31 @@
 			background-size: cover;
 			background-position: center;
 			flex: 1 0 auto;
-			height: 100%;
 			text-align: center;
+			height: 100%;
 		}
 
+
+
 		.info-basic {
-			display: flex;
+			display: block;
 			justify-content: space-around;
 			background-color: black;
 			color: white;
 			padding: 10px;
 			border-radius: 10px;
-			width: 80%;
+			flex-wrap: wrap;
+			display: flex;
+			margin: 30px;
+		}
+		.titulo {
+			padding-top: 20px;
+		}
 
+		 .titulo  h1 {
+			font-size: 2em;
+		}
 
-
-		}	
 
 
 
@@ -119,7 +128,7 @@
 				<div class="apresent-container"> 
 					<div class="titulo">
 						<p> Work shop</p>
-						<h1>Transformando clientes em vendedores da sua marca!</h1>
+						<h1 class="chamada">Transformando clientes em vendedores da sua marca!</h1>
 					</div>
 					<div class="info-basic">
 						<div class="quando">
@@ -132,7 +141,7 @@
 						</div>
 						<div class="onde">
 							<p>Onde?</p>
-							<h1>Sede Social</h1>
+							<h1>Sede Social ASPRA</h1>
 						</div>
 					</div>
 				</div>
