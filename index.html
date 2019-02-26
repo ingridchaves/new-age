@@ -128,7 +128,7 @@
 			width: 20%;
 		}
 		.duvidas {
-			display: block;
+			display: flex;
 			justify-content: space-around;
 			color: white;
 			padding: 10px;
@@ -137,11 +137,19 @@
 			display: flex;
 			margin right: 30px;
 			margin left: : 30px;
-
 			background-color: #535151;
+			align-items: center;
 		}
 		.duvidas h1 {
 			margin: 0;
+
+		}
+
+		.fecha {
+			background-color: white;
+			color: #535151;
+			padding: 3px;
+			border-radius: 20px;
 		}
 
 	</style>
@@ -196,12 +204,21 @@
 
 
 				<div id="pop">
-					<a href="#" onclick="document.getElementById('pop').style.display='none';">[Fechar]</a>	
+					<a href="#" class="fecha" onclick="document.getElementById('pop').style.display='none';">[Fechar]</a>	
 							
-							<br />
-								<div class="duvidas">
+					<div class="duvidas">
 				
 					<h1> Ficou alguma dúvida?</h1>
+					<form>
+						<p>Nome:     <p> <input type="text" name="nome"></p><br/></p>
+						<p>Email:     <p><input type="text" name="Email"></p><br/></p>
+						<p>Dúvidas:   <p><textarea name="duvidas" rows="4" cols="20"></textarea></p>
+					</form>
+
+
+
+					
+
 
 							</div>
 
