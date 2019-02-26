@@ -18,6 +18,8 @@
 			margin: 0;
 			flex-direction:column;
 			display: flex;
+			height: 100vh;
+			bottom: 0;
 
 		}
 		.header {
@@ -30,6 +32,7 @@
 			margin: 0;
 			align-items: center;
 			justify-content: space-around;
+			flex-shrink: 0;
 		}
 
 		.midias-sociais {
@@ -49,6 +52,7 @@
 			flex: 1 0 auto;
 			text-align: center;
 			height: 100%;
+			flex-wrap: wrap;
 		}
 
 
@@ -56,20 +60,28 @@
 		.info-basic {
 			display: block;
 			justify-content: space-around;
-			background-color: black;
 			color: white;
 			padding: 10px;
 			border-radius: 10px;
 			flex-wrap: wrap;
 			display: flex;
 			margin: 30px;
+			background-color: black;
 		}
 		.titulo {
 			padding-top: 20px;
+			font-size: 1em;
 		}
 
 		 .titulo  h1 {
-			font-size: 2em;
+			
+		}
+		.button {
+			background-color: yellow;
+			margin-bottom: 30px;
+			height: 40px;
+			border-radius: 10px;
+			font-size: 1.2em;
 		}
 
 
@@ -92,11 +104,15 @@
 			color: white;
 			display: flex;
 			flex-direction: row;
-			flex-wrap: wrap;
 			justify-content: space-around;
 			bottom: 0;
-
+			padding-bottom: 5px;
+			bottom: 0;
+			flex-wrap: wrap;
+			align-self: flex-end;
+			position: absolute;
 		}
+
 		.patrocinadores-img, .apoio-img, .realizacao-img {
 			display: flex;
 			justify-content: space-around;
@@ -144,6 +160,15 @@
 							<h1>Sede Social ASPRA</h1>
 						</div>
 					</div>
+				</div>
+				<div class="botao">
+					<a href="https://www.sympla.com.br/new-age-transformando-clientes-em-vendedores-da-sua-marca__465970">
+						<div>
+							<button class="button"> Compre Aqui</button>
+						</div>
+
+					</a>
+					
 				</div>
 			
 		</div>
