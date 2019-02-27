@@ -1,0 +1,140 @@
+/*CSS Document*/
+
+
+body {
+	margin: 0;
+	flex-direction:column;
+	display: flex;
+	height: 100vh;
+	bottom: 0
+}
+.header {
+	background-color: #white;
+	flex-shrink: 0;
+	height: 70px;
+	width: 100%;
+	margin: 0;
+	display: flex;
+	margin: 0;
+	align-items: center;
+	justify-content: space-around;
+	flex-shrink: 0;
+}
+
+		.midias-sociais {
+			width: 30%;
+			justify-content: space-around;
+			flex-direction: row;
+			display: flex;
+			flex-wrap: wrap;
+
+		}
+		.banner {
+			background-image: url('../img/banner-filtro.png');
+			margin: 0;
+			color: #535151;
+			background-size: cover;
+			background-position: center;
+			flex: 1 0 auto;
+			text-align: center;
+			flex-wrap: wrap;
+		}
+
+
+
+		.info-basic {
+			display: block;
+			justify-content: space-around;
+			color: white;
+			padding: 10px;
+			border-radius: 10px;
+			flex-wrap: wrap;
+			display: flex;
+			margin: 30px;
+			background-color: #535151;
+		}
+		.titulo {
+			padding-top: 20px;
+			font-size: 1em;
+		}
+
+		 .titulo  h1 {
+			
+		}
+		.button {
+			background-color: #f8c03b;
+			margin-bottom: 30px;
+			height: 40px;
+			border-radius: 10px;
+			font-size: 1.2em;
+			color: #535151;
+
+		}
+		.sobre {
+			background-color: #a9a9a9;
+			margin: 0;
+			padding-top: 20px;
+			text-align: center;
+			padding-bottom: 20px;
+
+		}
+
+		.sobre h2,h3 {
+			margin: 0;
+			color: #535151;
+
+		}
+
+		p, h1 {
+			margin: 0;
+		}
+
+			
+	
+		.footer {
+			background-color: white;
+			width: 100%;
+			flex-shrink: 0;	
+			color: #535151;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			bottom: 0;
+			padding-bottom: 15px;
+			padding-top: 15px;	
+			bottom: 0;
+			flex-wrap: wrap;
+			align-self: flex-end;
+			position: relative;
+		}
+
+		.patrocinadores-img, .apoio-img, .realizacao-img {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.duvidas {
+			display: flex;
+			justify-content: space-around;
+			color: #535151;
+			padding: 10px;
+			border-radius: 10px;
+			flex-wrap: wrap;
+			display: flex;
+			margin right: 30px;
+			margin left: : 30px;
+			background-color: white;
+			align-items: center;
+		}
+		.duvidas h1 {
+			margin: 0;
+
+		}
+
+		.fecha {
+			background-color: #f8c03b;
+			color: #535151;
+			padding: 3px;
+			border-radius: 20px;
+			align-self: flex-end;
+		}
