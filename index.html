@@ -23,7 +23,7 @@
 
 		}
 		.header {
-			background-color: #535151;
+			background-color: #white;
 			flex-shrink: 0;
 			height: 70px;
 			width: 100%;
@@ -81,6 +81,8 @@
 			height: 40px;
 			border-radius: 10px;
 			font-size: 1.2em;
+			color: #535151;
+
 		}
 		.sobre {
 			background-color: #a9a9a9;
@@ -104,15 +106,16 @@
 			
 	
 		.footer {
-			background-color: #535151;
+			background-color: white;
 			width: 100%;
 			flex-shrink: 0;	
-			color: white;
+			color: #535151;
 			display: flex;
 			flex-direction: row;
 			justify-content: space-around;
 			bottom: 0;
-			padding-bottom: 5px;
+			padding-bottom: 15px;
+			padding-top: 15px;	
 			bottom: 0;
 			flex-wrap: wrap;
 			align-self: flex-end;
@@ -130,14 +133,14 @@
 		.duvidas {
 			display: flex;
 			justify-content: space-around;
-			color: white;
+			color: #535151;
 			padding: 10px;
 			border-radius: 10px;
 			flex-wrap: wrap;
 			display: flex;
 			margin right: 30px;
 			margin left: : 30px;
-			background-color: #535151;
+			background-color: white;
 			align-items: center;
 		}
 		.duvidas h1 {
@@ -146,10 +149,11 @@
 		}
 
 		.fecha {
-			background-color: white;
+			background-color: #f8c03b;
 			color: #535151;
 			padding: 3px;
 			border-radius: 20px;
+			align-self: flex-end;
 		}
 
 	</style>
@@ -208,11 +212,22 @@
 							
 					<div class="duvidas">
 				
-					<h1> Ficou alguma dúvida?</h1>
+					<h1> Agora, conta pra gente:</h1>
 					<form>
-						<p>Nome:     <p> <input type="text" name="nome"></p><br/></p>
-						<p>Email:     <p><input type="text" name="Email"></p><br/></p>
-						<p>Dúvidas:   <p><textarea name="duvidas" rows="4" cols="20"></textarea></p>
+						<p>Nome Completo     <p> <input type="text" name="nome" class="nome"></p><br/></p>
+						<p>Email:     <p><input type="text" name="email" class="email"></p><br/></p>
+						<p>Telefone:     <p><input type="text" name="tel" class="tel"></p><br/></p>	
+						<p>Como chegou até aqui? <br/>
+							<select name="chegada">
+								<option> Facebook </option>
+								<option> Instagram</option>
+								<option> Sympla</option>
+								<option> Google</option>
+							
+							</select>
+							
+						</p>
+						 <br/><p>Nós conte mais:<p><textarea name="duvidas" rows="4" cols="20"></textarea></p>
 					</form>
 
 
@@ -221,10 +236,6 @@
 
 
 							</div>
-
-
-
-
 
 
 
@@ -243,7 +254,8 @@
 				<br/><br/>
 				<p>Palestrantes convidados:</p><br/>
 			
-				<a href="https://www.linkedin.com/in/jose-figueiredo" target="_blank"> <img src="img/foto-jose"/></a>José Figueiredo - Analista Sênior de Marketing na Sigga</li><br/>
+				<a href="https://www.linkedin.com/in/jose-figueiredo" target="_blank"> <img src="img/foto-jose.jpeg"/></a>José Figueiredo - Analista Sênior de Marketing na Sigga<br/>
+				<a href="https://www.linkedin.com/in/charlescschaefer" target="_blank"> <img src="img/foto-ch.jpeg"/></a>Charles Schaefer - Diretor de Marketing<br/>
 				<p>A confirmar</p><br/><br/>
 				
 				<p>Mais detalhes em breve!</p><br/>
@@ -261,7 +273,7 @@
 	</div>
 	<div class="footer">
 		<div class="apoio">
-			<h1> Apoio:</h1>
+			<h3> Apoio:</h3>
 			<div class="apoio-img">
 				<img class="apoio1" src="img/apoio1.png">
 				<img class="apoio2" src="img/apoio2.png">
@@ -270,7 +282,7 @@
 			
 		</div>
 		<div class="realizacao">
-			<h1> Realização:</h1>
+			<h3> Realização:</h3>
 			<div class="realizacao-img">
 				<img class="realizacao1" src="img/realizacao.png">
 				
@@ -278,7 +290,7 @@
 			
 		</div>
 		<div class="patrocinadores">
-			<h1> Patrocínio : </h1>
+			<h3> Patrocínio : </h3>
 			<div class="patrocinadores-img">
 				<img class="patroc1" src="img/patroc1.png">
 				<img class="patroc2" src="img/patroc2.png">
